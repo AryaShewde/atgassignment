@@ -11,3 +11,596 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.bord {
+  border: 6px solid #8064A2;
+  font-size: 25px;
+  padding: 0px 10px;
+  color: #0096C8;
+  font-family: cursive;
+}
+
+.titnav {
+  color: #0096C8;
+}
+
+.titnav span {
+  color: #8064A2;
+}
+
+.logotxt p {
+  color: gray;
+}
+
+.navbarcomp {
+  box-shadow: 0px 0px 4px;
+  position: fixed;
+  width: 100%;
+  background: white;
+  margin-top: -3px;
+}
+
+.searchicon {
+  padding: 0px 10px;
+  border-radius: 0px 7px 7px 0px;
+  background: #8064A2;
+  color: white;
+}
+
+.inpser {
+  padding: 3px 10px;
+  color: #939CA3;
+  border-radius: 7px 0px 0px 7px;
+  background: #F8F9FA;
+  border: 2px solid #EBEDF0;
+}
+
+.expicon {
+  color: #8064A2;
+}
+
+.eicon {
+  color: #8064A2;
+}
+
+.eicon2 {
+  color: #8064A2;
+}
+
+.signinlogo button {
+  padding: 6px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #0096C8;
+  border: 2px solid #0096C8;
+}
+
+.secnav {
+  width: 79%;
+}
+
+.holelogo {
+  width: 298px;
+  margin: 0px 20px
+}
+
+.pophe {
+  box-shadow: 0px 0px 5px;
+}
+
+.navdiv a {
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+  color: #939CA3;
+}
+
+.navdiv a.selected {
+  text-decoration: underline;
+  color: #8064A2;
+}
+
+.inpcol {
+  background-color: #EBEDF0;
+}
+
+.inpcol:focus {
+  outline: none;
+}
+
+.texxt {
+  padding-right: 30px;
+}
+
+.texxxt {
+  width: 100%;
+}
+
+.ttttt {
+  margin-left: -25px;
+}
+
+.toggle-password {
+  position: absolute;
+  top: 139px;
+  color: #6D747A;
+  right: 25px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.checkl {
+  width: fit-content;
+}
+
+.checkl input {
+  font-size: 53px;
+  width: 29px;
+  height: 20px;
+}
+
+.conbtn {
+  color: white;
+  background-color: #8064A2;
+}
+
+.dash {
+  width: 40%;
+}
+
+.opty {
+  width: 161px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.gog {
+  font-weight: bold;
+}
+
+.gogimg {
+  width: 25px;
+}
+
+.dass {
+  height: 5px;
+  width: 40px;
+  background-color: #EBEDF0;
+  border-radius: 10px;
+}
+
+.daste {
+  font-weight: 700;
+  color: #939CA3;
+}
+
+.dstext {
+  font-size: 15px;
+  text-align: center;
+  color: #6D747A;
+}
+
+.dstext span {
+  color: black;
+}
+
+.humburgerr {
+  display: none;
+}
+
+@media screen and (max-width: 1270px) {
+  .inpser {
+    display: none;
+  }
+
+  .searchicon {
+    background: transparent;
+    color: #8064A2;
+    font-size: 35px;
+  }
+
+  .none {
+    display: none;
+  }
+
+  .secnav {
+    width: auto;
+  }
+
+  .navbarcomp {
+    justify-content: space-between;
+  }
+
+  .humburgerr {
+    display: block;
+  }
+
+  .eicon2 {
+    width: 0px;
+  }
+
+  .marset {
+    width: 109px;
+  }
+
+  .searchicon {
+    margin-right: -72px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .holelogo {
+    font-size: 3vw;
+    margin: 0px
+  }
+
+  .titnav {
+    font-size: 4vw;
+  }
+
+  .bord {
+    font-size: 4vw;
+  }
+}
+
+.explore {
+  background-color: #F7F5F9;
+  padding: 10rem 4vw 0vw 4vw;
+}
+
+.detailexp {
+  width: 60%;
+}
+
+.detailexp h1 {
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+.detailexp h1 .lightbl {
+  color: #0096C8;
+}
+
+.detailexp h1 .darkbl {
+  color: #8064A2;
+}
+
+.signdet {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeimg img {
+  width: 60%;
+  margin-top: -220px;
+}
+
+.homegap {
+  gap: 4vw;
+}
+
+@media screen and (max-width: 850px) {
+  .settt {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .homeimg img {
+    margin-top: 50px;
+    width: 100%;
+  }
+
+  .detailexp {
+    width: 100%;
+  }
+
+  .signdet {
+    width: 100%;
+  }
+
+  .navdiv {
+    justify-content: center;
+  }
+}
+
+.modal-backdrop.show {
+  opacity: 0;
+}
+
+.modal-backdrop {
+  position: relative;
+}
+
+.lists {
+  margin: 8vw;
+}
+
+.listbtn {
+  width: fit-content;
+  padding: 5px 20px;
+  border: 2px solid #8064A2;
+  font-weight: 600;
+  color: #8064A2;
+}
+
+.sinlist {
+  padding: 3vw;
+}
+
+.sinlist1 {
+  border: 2px solid #8064A2;
+}
+
+.sinlist2 {
+  border: 2px solid #77933C;
+}
+
+.sinlist3 {
+  border: 2px solid #C0504D;
+}
+
+.sinlist4 {
+  border: 2px solid #0096C8;
+}
+
+.sinlist1:hover {
+  background-color: #8064A2;
+  color: white;
+
+  .icon1 {
+    color: white;
+  }
+
+  .listbtn {
+    color: white;
+    border: 2px solid white;
+  }
+}
+
+.icon1 {
+  color: #8064A2;
+}
+
+.sinlist2:hover {
+  background-color: #77933C;
+  color: white;
+
+  .icon2 {
+    color: white;
+  }
+
+  .listbtn {
+    color: white;
+    border: 2px solid white;
+  }
+}
+
+.icon2 {
+  color: #77933C;
+}
+
+.sinlist3:hover {
+  background-color: #C0504D;
+  color: white;
+
+  .icon3 {
+    color: white;
+  }
+
+  .listbtn {
+    color: white;
+    border: 2px solid white;
+  }
+}
+
+.icon3 {
+  color: #C0504D;
+}
+
+.sinlist4:hover {
+  background-color: #0096C8;
+  color: white;
+
+  .icon4 {
+    color: white;
+  }
+
+  .listbtn {
+    color: white;
+    border: 2px solid white;
+  }
+}
+
+.icon4 {
+  color: #0096C8;
+}
+
+@media screen and (max-width: 950px) {
+  .singset {
+    flex-direction: column;
+  }
+
+  .sinlist {
+    align-items: center;
+    text-align: center;
+  }
+
+  .listbtn {
+    width: auto;
+  }
+
+  .addmid {
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.addsec {
+  background-color: #ecf9fd;
+  padding: 7vw 4vw;
+}
+
+.addmid {
+  background-color: white;
+  padding: 3vw;
+}
+
+.music {
+  padding: 4vw 10vw;
+}
+
+.musicele {
+  padding: 1.5vw;
+  background-color: #F7F5F9;
+}
+
+.logomuc {
+  background-color: #8064A2;
+  width: fit-content;
+  padding: 7px 13px;
+  font-size: 22px;
+  color: white;
+  border-radius: 40px;
+}
+
+.danceimg img {
+  width: 60px;
+  border-radius: 60px;
+}
+
+.mike {
+  font-size: 25px;
+  margin-top: 41px;
+  margin-left: -70px;
+  color: white;
+}
+
+.mucinp {
+  height: 4px;
+  color: white;
+  background: white;
+  width: 30vw;
+}
+
+.playpau {
+  background: #ffffff;
+  font-size: 28px;
+  padding: 2px 5px;
+  width: 28px;
+  border-radius: 37px;
+  color: #8064A2;
+}
+
+.leftmuc {
+  width: fit-content;
+  padding: 7px 18px;
+  background: #CCC1DA;
+}
+
+.danceimg {
+  width: 66px;
+}
+
+.rightmuc img {
+  width: 70px;
+  border-radius: 60px;
+}
+
+@media screen and (max-width: 1050px) {
+  .downmuc {
+    flex-direction: column-reverse;
+  }
+
+  .musicele {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .headmuc {
+    justify-content: center;
+  }
+}
+
+.mucdr {
+  color: #8064A2;
+}
+
+.s1 {
+  color: #8064A2;
+}
+
+.s2 {
+  color: #0096C8;
+}
+
+.poster {
+  padding: 5vw 5vw 0vw 5vw;
+}
+
+.posterimg {
+  width: 100%;
+}
+
+.top {
+  padding: 6px 10px;
+  border-radius: 24px;
+  box-shadow: 0px 0px 5px;
+}
+.posbtn{
+  background-color: #8064A2;
+}
+@media screen and (max-width: 1050px) {
+  .top{
+    bottom: 43px;
+    position: fixed;
+    right: 27px;
+    background: white;
+  }
+}
+.footer{
+  padding: 3vw;
+}
+.bold{
+  font-weight: bold;
+}
+.social{
+  color: #6D747A;
+  background-color: #EBEDF0;
+  padding: 6px 11px;
+  border-radius: 20px;
+}
+.searchiconend {
+  padding: 0px 10px;
+  border-radius: 0px 7px 7px 0px;
+  background: #8064A2;
+  color: white;
+}
+.inpserend {
+  padding: 3px 10px;
+  color: #939CA3;
+  border-radius: 7px 0px 0px 7px;
+  background: #F8F9FA;
+  border: 2px solid #EBEDF0;
+}
+@media screen and (max-width: 1100px) {
+  .footer{
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+.lastfooter{
+  width: 100%;
+  padding: 2rem;
+  background-color: #F7F5F9;
+  text-align: center;
+}
+.lastfooter p{
+  margin: 0;
+}
+.footer h4{
+  color: 
+  #6D747A;
+}
